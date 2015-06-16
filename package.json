@@ -4,7 +4,7 @@
   "description": "Sandbox application for experimenting.",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test node node_modules/mocha/bin/mocha -G --recursive --reporter Spec"
+    "test": "NODE_ENV=test node node_modules/mocha/bin/mocha -G --recursive"
   },
   "repository": {
     "type": "git",
