@@ -1,0 +1,23 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox application for experimenting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node node_modules/mocha/bin/mocha -G --recursive --reporter Spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benjaminpearson/sandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjaminpearson/sandbox/issues"
+  },
+  "homepage": "https://github.com/benjaminpearson/sandbox",
+  "dependencies": {
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  }
+}
