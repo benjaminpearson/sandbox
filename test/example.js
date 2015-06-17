@@ -15,5 +15,9 @@ describe('Example', function() {
 			example.multiply(4, 2).should.eql(8);
 			done();
 		});
+		it('should calculate the multiplication of two values', function(done) {
+			example.multiply(8, 2).should.eql(8);
+			done();
+		});
 	});
 });
