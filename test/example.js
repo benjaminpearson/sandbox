@@ -20,6 +20,12 @@ describe('Example', function() {
 				done();
 			});
 		});
+		it('should calculate the subtraction of two values', function(done) {
+			example.subtract(8, 4).then(function(result) {
+				result.should.eql(4);
+				done();
+			});
+		});
 		it('should have ValueTooHigh error when subtracting', function(done) {
 			example.subtract(11, 3)
 				.then(function(result) {
