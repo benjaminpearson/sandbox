@@ -19,6 +19,10 @@ describe('Example', function() {
 			done();
 		});
 		it('should calculate the multiplication of two values', function(done) {
+			example.multiply(6, 2).should.eql(12);
+			done();
+		});
+		it('should calculate the multiplication of two values', function(done) {
 			example.multiply(10, 2).should.eql(20);
 			done();
 		});
