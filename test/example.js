@@ -14,6 +14,18 @@ describe('Example', function() {
 			example.multiply(4, 2).should.eql(8);
 			done();
 		});
+		it('should calculate the multiplication of two values', function(done) {
+			example.multiply(6, 2).should.eql(12);
+			done();
+		});
+		it('should calculate the multiplication of two values', function(done) {
+			example.multiply(6, 2).should.eql(12);
+			done();
+		});
+		it('should calculate the multiplication of two values', function(done) {
+			example.multiply(10, 2).should.eql(20);
+			done();
+		});
 		it('should calculate the subtraction of two values', function(done) {
 			example.subtract(4, 3).then(function(result) {
 				result.should.eql(1);
