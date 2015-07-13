@@ -14,27 +14,13 @@ describe('Example', function() {
 			example.multiply(4, 2).should.eql(8);
 			done();
 		});
+		it('should calculate the multiplication of two values', function(done) {
+			example.multiply(6, 2).should.eql(12);
+			done();
+		});
 		it('should calculate the subtraction of two values', function(done) {
 			example.subtract(4, 3).then(function(result) {
 				result.should.eql(1);
-				done();
-			});
-		});
-		it('should calculate the subtraction of two values', function(done) {
-			example.subtract(8, 4).then(function(result) {
-				result.should.eql(4);
-				done();
-			});
-		});
-		it('should calculate the subtraction of two values', function(done) {
-			example.subtract(8, 2).then(function(result) {
-				result.should.eql(6);
-				done();
-			});
-		});
-		it('should calculate the subtraction of two values', function(done) {
-			example.subtract(20, 10).then(function(result) {
-				result.should.eql(10);
 				done();
 			});
 		});
