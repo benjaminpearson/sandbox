@@ -1,8 +1,6 @@
 # sandbox
 Sandbox application for experimenting.
 
-
-
 # Getting Started
 Checkout repo and run `npm install`
 
