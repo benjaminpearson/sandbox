@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "Sandbox application for experimenting.",
   "main": "index.js",
-  "scripts": {
-    "test": "NODE_ENV=test node_modules/.bin/_mocha -G --recursive",
-    "test-cov": "NODE_ENV=test node_modules/.bin/istanbul/ cover node_modules/.bin/_mocha -G --recursive"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/benjaminpearson/sandbox.git"
@@ -17,10 +14,5 @@
     "url": "https://github.com/benjaminpearson/sandbox/issues"
   },
   "homepage": "https://github.com/benjaminpearson/sandbox",
-  "dependencies": {
-    "bluebird": "^2.9.32",
-    "istanbul": "^0.3.17",
-    "mocha": "^2.2.5",
-    "should": "^6.0.3"
-  }
+  "dependencies": {}
 }
